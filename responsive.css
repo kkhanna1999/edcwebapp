@@ -1,0 +1,477 @@
+@media (max-width: 1024px){
+h1 {
+    font-size: 2.1em;
+}
+.testimonial-item:hover blockquote {
+    right: 0px;
+    left: 0px;
+}
+.testimonial-item blockquote:hover{
+    transform: scale(1.1);
+}
+#slider {
+    height: 100vh;
+}
+.slider-content {
+    position: relative;
+    height: 90vh;
+}
+.navbar-brand {
+    margin-right: 10px;
+}
+.navbar-brand {
+    margin-right: 35px;
+}
+.right-menu li a {
+    padding: 8px 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 10px 10px;
+}
+.price span {
+    top: -5px;
+}
+.slider-form input[type=email]{
+  margin-bottom: 15px;
+  margin-right: 0px;
+}
+}
+@media (max-width: 768px){
+body{
+   font-size: 14px;
+}
+h1{
+   font-size: 2.1em;
+}
+h2{
+   font-size: 2em;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgba(255,255,255,.6);
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.navbar-center {
+    position: relative;
+    left: 6%;
+}
+.right-menu {
+    position: relative;
+    float: left;
+    left: 10px;
+}
+header{
+    background: rgba(58,164,226,.9);
+}
+#slider {
+    height:auto;
+    padding-bottom: 20px;
+    padding-top: 53px;
+}
+.verticle-align-tm {
+    position: relative;
+    top: 0%;
+    transform: translateY(0);
+}
+.slider-content {
+    height: auto;
+}
+marquee.marquee {
+    margin-top: 25px;
+}
+.tm-testimonial{
+  width: 100%;
+}
+.testimonial-item:hover blockquote {
+    right: 0px;
+    left: 0px;
+}
+.testimonial-item .feedback-date {
+    float: none;
+}
+.pricing-item{
+  padding: 55px 15px 55px 15px;
+}
+.testimonial-item blockquote:hover{
+    transform: scale(1.1);
+}
+.copyright-nav li {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.copyright-nav {
+    text-align: center;
+}
+.price span {
+    top: -4px;
+}
+.slider-form input{
+  width: 100%;
+}
+.slider-form input[type=email]{
+  margin-bottom: 15px;
+  margin-right: 0px;
+}
+.member-details .social li {
+    margin-bottom: 20px;
+}
+.portfolio-menu .portfolio-btn-group .form-control {
+    width: 18%;
+}
+.porfolio-img:after{
+  bottom: 6px;
+}
+.glance{
+  margin-top: 100px;
+  top: 0px;
+  margin-bottom: 100px;
+}
+.padding-bottom-105 {
+    padding-bottom: 97px;
+}
+#features .padding-top-60 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.padding-top-100{
+  padding-top: 0px;
+}
+}
+@media (max-width: 576px){
+/**************** Defualt ****************/
+body{
+  font-size: 14px;
+  line-height: 1.6;
+}
+h1{
+      font-size:1.3em
+  }
+h2{
+      font-size:1.25em
+  }
+h3{
+      font-size:1.2em
+  }
+h4{
+      font-size:1.5em
+  }
+h5{
+      font-size:1.19em
+  }
+h6{
+      font-size:.857em
+  }
+p{
+  font-size: 1em;
+  font-weight: 300;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgba(255,255,255,.6);
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.navbar-center {
+    position: relative;
+    left: 13%;
+}
+.right-menu {
+    position: relative;
+    float: left;
+    left: 10px;
+}
+header{
+    background: rgba(58,164,226,.9);
+}
+#works .padding-top-45 {
+    padding-top: 23px;
+}
+#works .padding-bottom-98 {
+    padding-bottom: 30px;
+}
+#works .title-left {
+    padding-bottom: 8px;
+}
+#slider {
+    height:115vh;
+    padding-bottom: 20px;
+    padding-top: 53px;
+}
+#glance {
+    padding-bottom: 60px;
+}
+.verticle-align-tm {
+    position: relative;
+    top: 0%;
+    transform: translateY(0);
+}
+#whatis .tm-text {
+    padding-right: 0px;
+}
+#services {
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+#services img {
+    padding-top: 45px;
+}
+.padding-top-60 {
+    padding-top: 00px;
+}
+#features {
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+#features .title-left {
+    padding-bottom: 35px;
+}
+#features .padding-top-60 {
+    padding-bottom: 0px;
+}
+#whatis .title-left {
+    padding-bottom: 35px;
+}
+.image-holder img {
+    position: relative;
+    width: 100%;
+    padding-top: 45px;
+}
+.pulse-icon {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.padding-top-60 img {
+    padding-top: 43px;
+}
+.title-left {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+#testimonial {
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+#testimonial .title-description {
+    padding-bottom: 32px;
+}
+.padding-bottom-80 {
+    padding-bottom: 43px;
+}
+.slider-content {
+    position: relative;
+    height: 45vh;
+    z-index: 1;
+    display:inline-block;
+}
+.slider-content img{
+    padding-top: 15px;
+}
+.portfolio-menu .portfolio-btn-group .form-control {
+    width: auto;
+    text-align: center;
+}
+#whatis {
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+.testimonial-item blockquote:hover{
+    transform: scale(1.0);
+}
+.testimonial-item:hover blockquote {
+    right: 0px;
+    left: 0px;
+}
+.tm-testimonial blockquote .description {
+    font-size: 14px;
+}
+.testimonial-item .client-details {
+    padding-top: 0px;
+}
+blockquote .client-name {
+    font-size: 15px;
+}
+blockquote .client-name {
+    font-size: 15px;
+}
+blockquote .client-position {
+    font-size: 15px;
+}
+blockquote .feedback-date {
+    font-size: 15px;
+}
+.tm-testimonial blockquote .feedback-date {
+    float: left;
+    position: relative;
+    top: 0px;
+}
+.testimonial-item .client-details {
+    padding-right: 15px;
+}
+.contact-wrapper{
+  margin: 0px;
+  padding: 0px 0px 0px;
+  background: transparent;
+  text-align: center;
+}
+#team {
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+#team .title {
+    padding: 0;
+}
+#team .padding-top-45 {
+    padding-top: 24px;
+}
+#team .title-left {
+    padding-bottom: 15px;
+}
+#blog {
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+.vertical-height{
+  height: auto;
+  position: relative;
+}
+.vertical-wrapper {
+    position: relative;
+    top: unset;
+    transform: none;
+}
+.tm-testimonial {
+    width: 100%;
+    margin-top: 10px;
+}
+.testimonial-item .feedback-date {
+    float: left;
+    padding-top: 0px;
+}
+.slider-form input{
+  width: 100%;
+  margin-right: 0px;
+}
+.slider-form input[type=mail]{
+  margin-bottom: 15px;
+}
+.newsletter {
+    left: 0px;
+}
+.newsletter input[type="submit"]{
+  position: relative;
+}
+.newsletter input[type="email"] {
+  width: 80%;
+  margin-right: 0px;
+  margin-bottom: 15px;
+}
+.widget-area {
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+#subscribe {
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+.slider-title {
+    padding-bottom: 25px;
+    padding-top:55px;
+}
+.slider-text {
+    padding-bottom: 30px;
+}
+.title-center {
+    padding-bottom: 35px;
+}
+p.title-description {
+    padding-bottom: 0px;
+}
+.tm-text {
+    padding-bottom: 27px;
+}
+.team-area-tm{
+  padding-top: 12px;
+}
+#subscribe .title{
+  padding-bottom: 0px;
+}
+#whatis .title{
+  padding-bottom: 0px;
+}
+header.black{
+  background: rgba(58,164,226,.9);
+}
+.tm-feature p {
+    padding-bottom: 25px;
+}
+.tm-feature:first-child img {
+    padding-top: 20px;
+}
+.glance{
+  margin-top: 60px;
+  top: 0;
+  margin-bottom: 0px;
+}
+.glance-item .title{
+  background: rgba(58, 164, 226, .4);
+}
+.glance-bg{
+  background: none;
+}
+.member-info {
+  margin-bottom: 30px;
+}
+.contact-list {
+  margin-bottom: 45px;
+}
+.blog-title {
+  padding-bottom: 25px;
+}
+#blog .title-center {
+  padding-bottom: 40px;
+}
+.portfolio-menu {
+  text-align: center;
+}
+.portfolio-btn {
+  text-align: center;
+  float: none;
+  padding-top: 15px;
+  margin-bottom: 45px;
+}
+.porfolio-img:after {
+    bottom: 30px;
+}
+#works {
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+#works .title {
+    padding-bottom: 8px;
+}
+.padding-top-100 {
+    padding-top: 00px;
+}
+.member-details {
+    text-align: center;
+}
+.copyright-text, .copyright-nav a {
+    text-align: center;
+}
+.padding-bottom-105 {
+    padding-bottom: 33px;
+}
+.sub-title {
+    padding-bottom: 16px;
+}
+#subscribe .title-center {
+    padding-bottom: 43px;
+}
+.title-left .title {
+    padding-bottom: 38px;
+}
+}

@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style>
+<link type="text/css" rel="stylesheet" href="frst.css">
+<link type="text/css" rel="stylesheet" href="responsive.css">
+<link type="text/css" rel="stylesheet" href="normalize.css">
+<link type="text/css" rel="stylesheet" href="bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="lity.css">
+<link type="text/css" rel="stylesheet" href="style.css">
+<link type="text/css" rel="stylesheet" href="font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="application-name" content="">
+	<meta name="description" content="">
+	<style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1em}.svg-inline--fa.fa-stack-2x{height:2em;width:2em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}</style><link rel="icon" href="img/favicon.png">
+	<title>EDC webpage</title>
+	<link rel="icon" href="img/favicon.png">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="css/vendor/normalize.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="css/vendor/font-awesome/css/font-awesome.min.css">
+
+	<!-- Lity Css -->
+	<link rel="stylesheet" type="text/css" href="css/vendor/lity.css">
+
+
+	<!-- Font Poppins -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Responsive Css -->
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+
+
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/2/intl/en_gb/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/2/intl/en_gb/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/2/intl/en_gb/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/2/intl/en_gb/marker.js"></script><style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/2/intl/en_gb/onion.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/2/intl/en_gb/controls.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/2/intl/en_gb/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/2/intl/en_gb/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/33/2/intl/en_gb/stats.js"></script></head>
+      <body id="catos" style="">
+      	<header class="header-area black">
+      		<div class="container">
+      			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      			    <div class="navbar-brand navbar-center">
+      			    	<a class="logo js-scroll-trigger" href="#catos">
+										<img src="img/logo.png" alt=""></a>
+      			    </div>
+      				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      			  	<span class="navbar-toggler-icon"></span>
+      			  	</button>
+      				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+      				    <ul class="navbar-nav left-menu">
+      				      <li class="nav-item">
+      				        <a class="nav-link js-scroll-trigger" href="#whatis">Service</a>
+      				      </li>
+      				      <li class="nav-item">
+      				        <a class="nav-link js-scroll-trigger" href="#works">Work</a>
+      				      </li>
+      				      <li class="nav-item">
+      				        <a class="nav-link js-scroll-trigger" href="#features">Feature</a>
+      				      </li>
+      				      <li class="nav-item">
+      				        <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+      				      </li>
+      				      <li class="nav-item">
+      				        <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+      				      </li>
+      				    </ul>
+      					<ul class="right-menu">
+      					  	<li class="nav-item">
+      			                <select class="language">
+      							  <option value="English">USD</option>
+      							  <option value="">EUR</option>
+      							</select>
+      			            </li>
+      					  	<li class="nav-item">
+      					  		<span><img src="img/US.jpg" alt=""></span>
+      			                <select class="language">
+      							  <option value="English">English</option>
+      							  <option value="">French</option>
+      							</select>
+      			            </li>
+      					    <li class="nav-item">
+      					        <a class="nav-link" href="#">Sign Up</a>
+      					    </li>
+      					</ul>
+      				</div>
+      			</nav>
+      		</div>
+      	</header>
+      	<section id="slider">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-6 col-md-6 col-sm-12 order-sm-1 order-2">
+      					<div class="slider-content">
+      						<div class="verticle-align-tm clearfix">
+      							<h1 class="slider-title">We Love To Collaborate With Our Customers</h1>
+      							<p class="slider-text">Our mission is to make beautiful objects that allow our customers to generate revenue.we design produce in collaborate with our customgers</p>
+      							<form class="slider-form" action="#">
+      								<input type="email" name="email" placeholder="Enter your email address">
+      								<button class="tm-button">Get Started</button>
+      							</form>
+      						</div>
+      					</div>
+      				</div>
+      				<div class="col-lg-6 col-md-6 col-sm-12 order-sm-2 order-1">
+      					<div class="slider-content">
+      						<div class="verticle-align-tm">
+      							<img src="img/slider/slider_content_1.png" alt="">
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	<section id="glance">
+      		<div class="container">
+      			<div class="glance">
+      				<div class="row">
+      					<div class="glance-bg"></div>
+      					<div class="col-sm-12 col-md-4 col-lg-4">
+      						<div class="glance-item">
+      							<div class="title">
+      								<h5>Emotion &amp; Impact</h5>
+      							</div>
+      							<img src="img/glance/glance1.png" alt="">
+      							<p>Graphic research, 3D sculptures, prototypes, packaging. From a unique piece to several hundred thousand series of objects.</p>
+      							<a href="#" class="tm-button">Get Started</a>
+      						</div>
+      					</div>
+      					<div class="col-sm-12 col-md-4 col-lg-4">
+      						<div class="glance-item">
+      							<div class="title">
+      								<h5>Quality Control</h5>
+      							</div>
+      							<img src="img/glance/glance2.png" alt="">
+      							<p>Personalized project follow-up, compliance testing.  We deliver worldwide.developed solid industrial partnerships enabling it to</p>
+      							<a href="#" class="tm-button">Get Started</a>
+      						</div>
+      					</div>
+      					<div class="col-sm-12 col-md-4 col-lg-4">
+      						<div class="glance-item">
+      							<div class="title">
+      								<h5>Creative Support</h5>
+      							</div>
+      							<img src="img/glance/glance3.png" alt="">
+      							<p>Personalized project follow-up, compliance testing. Personalized project follow-up, compliance testing</p>
+      							<a href="#" class="tm-button">Get Started</a>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	<section id="whatis">
+      		<div class="container tm-relative">
+      			<div class="pulse-icon">
+      				<div class="icon-wrap">
+      					<a href="http://www.youtube.com/watch?v=XSGBVzeBUbk" data-lity=""><svg class="svg-inline--fa fa-play fa-w-14 icon" aria-hidden="true" data-prefix="fas" data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg><!-- <i class="icon fas fa-play"></i> --></a>
+      				</div>
+      				<div class="elements">
+      					<div class="circle circle-outer"></div>
+      					<div class="circle circle-inner"></div>
+      					<div class="pulse pulse-1"></div>
+      					<div class="pulse pulse-2"></div>
+      					<div class="pulse pulse-3"></div>
+      				</div>
+      			</div>
+      			<div class="row">
+      				<div class="col-lg-6 col-md-6 col-sm-12">
+      					<div class="vertical-height">
+      						<div class="vertical-wrapper">
+      							<div class="title-left">
+      								<h6 class="sub-title">The most advanced design</h6>
+      								<h2 class="title">Build Your Entire, <br> Website In <span>Minutes</span></h2>
+      							</div>
+      							<div class="tm-text">
+      								<p>The beating heart of ClearMotion is the Activalve, a software-centric, electro-hydraulic device that lives on every corner of the car, constantly monitoring, processing and responding to road conditions. Each Activalve consist of three highly advanced components working together at sub-millisecond timescales.</p>
+      								<div class="empty-space"></div>
+      								<p>When the Digital Controller detects a potential disturbance it only takes five milliseconds for the Activalve’s motor to counteract it by exacting pressure on the damper. Each Activalve consist of three highly advanced components working together at sub-millisecond timescales.</p>
+      							</div>
+      							<a href="#" class="tm-button">Get Started</a>
+      						</div>
+      					</div>
+      				</div>
+      				<div class="col-lg-6 col-md-6 col-sm-12">
+      					<div class="image-holder">
+      						<img src="img/whatis/screeshot_web.png" alt="">
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	<section id="works">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-4 col-md-4 col-sm-12">
+      					<div class="title-left">
+      						<h6 class="sub-title">The most gorgeous works</h6>
+      						<h2 class="title">We started with a desire to design &amp; build <span>Amazing Stuff</span></h2>
+      					</div>
+      				</div>
+      				<div class="col-lg-4 col-md-4 col-sm-12">
+      					<div class="padding-top-45"></div>
+      					<p>We build positive brand’s image and provide consistent graphic designs. We identify companies visually and create coherent website. By adding any of these other products to quote.</p>
+      				</div>
+      				<div class="col-lg-4 col-md-4 col-sm-12 padding-bottom-105">
+      					<div class="padding-top-45 mobile-top-30"></div>
+      					<p>Various team members’ abilities allow us to use different forms of expression, such as photography, video and marketing, as well as binding them into one new quality. Branding is so much more then logo itself.</p>
+      				</div>
+      				<div class="col-sm-12 col-md-8 col-lg-8">
+      					<div class="portfolio">
+      		                <div class="portfolio-menu">
+      	                     	<div class="button-group portfolio-btn-group">
+      		                        <button class="active form-control" data-filter="*">All Item</button>
+      		                        <button class="form-control" data-filter=".cat1">Blog	</button>
+      		                        <button class="form-control" data-filter=".cat2">News</button>
+      		                        <button class="form-control" data-filter=".cat3">Magic</button>
+      		                        <button class="form-control" data-filter=".cat4">Design</button>
+      	                    	</div>
+      		                </div>
+                     		</div>
+                  	</div>
+                  	<div class="col-sm-12 col-md-4 col-lg-4">
+                  		<div class="portfolio-btn">
+                  			<a href="#" class="tm-button">See all works</a>
+                  		</div>
+                  	</div>
+                  </div>
+                  <div class="row grid" style="position: relative; height: 526.454px;">
+      	            <div class="col-md-4 grid-item grid-item-height1 cat2 cat3 cat4" style="position: absolute; left: 0%; top: 0px;">
+      	                <div class="single-image">
+      	                  	<div class="porfolio-img">
+      	                     	<a href="#"><img src="img/portfolio/portfolio1.jpg" alt=""></a>
+      	                    </div>
+      	                    <div class="overlay">
+      	                     	<h5><a href="#">Marketplace Design</a></h5>
+      	                    </div>
+      	                </div>
+      	            </div>
+                     <div class="col-sm-12 col-md-4 col-lg-4 grid-item grid-item-height2 cat3 cat5 cat6" style="position: absolute; left: 33.3333%; top: 0px;">
+                        <div class="single-image">
+                          <div class="porfolio-img">
+      	                 	<a href="#"><img src="img/portfolio/portfolio2.jpg" alt=""></a>
+      	                </div>
+                          <div class="overlay">
+                           	<h5><a href="#">Modern Artist Portfolio</a></h5>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-12 col-md-4 col-lg-4 grid-item cat1 cat2 cat4" style="position: absolute; left: 66.6667%; top: 0px;">
+      	                <div class="single-image">
+      	                    <div class="porfolio-img">
+      		                     	<a href="#"><img src="img/portfolio/portfolio3.jpg" alt=""></a>
+      		                </div>
+      	                    <div class="overlay">
+      	                     	<h5><a href="#">Amazing Stuff</a></h5>
+      	                    </div>
+      	                </div>
+                     </div>
+                     <div class="col-sm-12 col-md-4 col-lg-4 grid-item cat2 cat1 cat5" style="position: absolute; left: 66.6667%; top: 170px;">
+      	                <div class="single-image">
+      	                    <div class="porfolio-img">
+      	                     	<a href="#"><img src="img/portfolio/portfolio5.jpg" alt=""></a>
+      	                    </div>
+      	                    <div class="overlay">
+      	                 	  	<h5><a href="#">Modern Artist Portfolio</a></h5>
+      	                    </div>
+      	                </div>
+                     </div>
+                     <div class="col-sm-12 col-md-4 col-lg-4 grid-item grid-item-height2 cat2 cat4 cat5" style="position: absolute; left: 0%; top: 186px;">
+      	                 <div class="single-image">
+      	                    <div class="porfolio-img">
+      	                     	<a href="#"><img src="img/portfolio/portfolio4.jpg" alt=""></a>
+      	                    </div>
+      	                    <div class="overlay">
+      	                    	<h5><a href="#">Life is Beautiful</a></h5>
+      	                    </div>
+      	                </div>
+                      </div>
+                      <div class="col-sm-12 col-md-4 col-lg-4 grid-item cat2 cat1 cat3" style="position: absolute; left: 33.3333%; top: 345px;">
+      	                <div class="single-image">
+      	                    <div class="porfolio-img">
+      	                     	<a href="#"><img src="img/portfolio/portfolio6.jpg" alt=""></a>
+      	                    </div>
+      	                    <div class="overlay">
+      		                   	<h5><a href="#">Life is Beautiful</a></h5>
+      		                </div>
+      	                </div>
+                      </div>
+                      <div class="col-sm-12 col-md-4 col-lg-4 grid-item cat2 cat4" style="position: absolute; left: 0%; top: 356px;">
+      	                <div class="single-image">
+      	                    <div class="porfolio-img">
+      	                     	<a href="#"><img src="img/portfolio/portfolio7.jpg" alt=""></a>
+      	                    </div>
+      	                    <div class="overlay">
+      		                   	<h5><a href="#">Future is Here</a></h5>
+      		                </div>
+                          </div>
+                      </div>
+      			</div>
+      		</div>
+      	</section>
+      	<section id="features">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-6 col-md-12 col-sm-12 padding-top-60 order-sm-1 order-2">
+      					<div class="padding-top-100"></div>
+      					<img src="img/feature/net_box.png" alt="">
+      				</div>
+      				<div class="col-lg-6 col-md-12 col-sm-12 order-sm-2 order-1">
+      					<div class="title-left">
+      						<h6 class="sub-title">Our good mission</h6>
+      						<h2 class="title">Websites need to looks <span>Great and Fit</span></h2>
+      					</div>
+      					<div class="num-text">
+      						<p><span>01</span> clearly see how we operate and what values we profess. Each project is different, has its own features and character. We are glad when more brands come to us, believing in our capabilities. We are proud to show the results.</p>
+
+      						<p><span>02</span> We create dynamic brand connotations. We know new image is new possibilities and new possibilities are the new clients. Services are here provided in a holistic way. Precisely, conceptually, in awareness of fresh tendencies and we apply it well. We will set your company apart from the others by emphasizing its unique character. Say goodbye to clichés and archaic, old-fashioned schemes. You wish for classics or for experiment?</p>
+
+      						<p><span>03</span> Because we always see new design as a source of new possibilities, we focus on creating a unique image that corresponds with the company’s very own character. We build consciously.</p>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	<section id="services">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-3 col-md-3 col-sm-12"></div>
+      				<div class="col-lg-6 col-md-6 col-sm-12">
+      					<div class="title-center">
+      						<h6 class="sub-title">How We Do Amazing Things</h6>
+      						<h2 class="title">Website Development Strategy <span>Creative Flow</span></h2>
+      						<p class="title-description">Various team members’ abilities allow us to use different forms of expression, such as photography, video and marketing.</p>
+      					</div>
+      				</div>
+      				<div class="col-lg-3 col-md-3 col-sm-12"></div>
+      			</div>
+      			<div class="row">
+      				<div class="col-lg-6 col-md-6 col-sm-12 padding-top-60">
+      					<div class="tm-text">
+      						<p>Various team members’ abilities allow us to use different forms of expression, such as photography, video and marketing, as well as binding them into one new quality. Branding is so much more then itself, as we consider it as an entire creative process.</p>
+
+      						<ul class="tm-ul">
+      							<li>Trendy Design for corporate clients</li>
+      							<li>12 grid system based on latest bootstrape</li>
+      							<li>CMS ready for WordPress and Joomla </li>
+      							<li>Retina ready and latest modern color combination</li>
+      						</ul>
+      					</div>
+      					<a href="index.html" class="tm-button">Get Started</a>
+      				</div>
+      				<div class="col-lg-6 col-md-6 col-sm-12">
+      					<img src="img/services/magic_tree.png" alt="">
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	<section id="team">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-4 col-md-4 col-sm-12">
+      					<div class="title-left">
+      						<h6 class="sub-title">The most gorgeous team</h6>
+      						<h2 class="title">We started with a desire to design &amp; build Amazing Stuff</h2>
+      					</div>
+      				</div>
+      				<div class="col-lg-4 col-md-4 col-sm-12">
+      					<div class="padding-top-45"></div>
+      					<p>We build positive brand’s image and provide consistent graphic designs. We identify the companies visually and create coherent for website arrangements. By adding any of these other products to your quote, you’ll optimize.</p>
+      				</div>
+      				<div class="col-lg-4 col-md-4 col-sm-12 padding-bottom-80">
+      					<div class="padding-top-45 mobile-top-30"></div>
+      					<p>Various team members’ abilities allow us to use different forms of expression, such as photography, video and marketing, as well as binding them into one new quality. Branding is so much more then logo itself, as we consider.</p>
+      				</div>
+      			</div>
+      			<div class="row">
+      				<div class="col-sm-12 col-md-3 col-lg-3">
+      					<div class="member-info">
+      						<div class="member-img">
+      							<img src="img/team/team1.jpg" alt="">
+      						</div>
+      						<div class="member-details">
+      							<h6>Graphic Designer</h6>
+      							<h5 class="name">Marlo Morgan</h5>
+      							<ul class="social">
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg=""><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path></svg><!-- <i class="fab fa-facebook-f"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-linkedin-in fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path></svg><!-- <i class="fab fa-linkedin-in"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-instagram"></i> --></a></li>
+      							</ul>
+      						</div>
+      					</div>
+      				</div>
+      				<div class="col-sm-12 col-md-3 col-lg-3">
+      					<div class="member-info">
+      						<div class="member-img">
+      							<img src="img/team/team2.jpg" alt="">
+      						</div>
+      						<div class="member-details">
+      							<h6>Frontend Developer</h6>
+      							<h5 class="name">Angelo Browny</h5>
+      							<ul class="social">
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg=""><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path></svg><!-- <i class="fab fa-facebook-f"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-linkedin-in fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path></svg><!-- <i class="fab fa-linkedin-in"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-instagram"></i> --></a></li>
+      							</ul>
+      						</div>
+      					</div>
+      				</div>
+      				<div class="col-sm-12 col-md-3 col-lg-3">
+      					<div class="member-info">
+      						<div class="member-img">
+      							<img src="img/team/team3.jpg" alt="">
+      						</div>
+      						<div class="member-details">
+      							<h6>Backend Developer</h6>
+      							<h5 class="name">John Bradman</h5>
+      							<ul class="social">
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg=""><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path></svg><!-- <i class="fab fa-facebook-f"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-linkedin-in fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path></svg><!-- <i class="fab fa-linkedin-in"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-instagram"></i> --></a></li>
+      							</ul>
+      						</div>
+      					</div>
+      				</div>
+      				<div class="col-sm-12 col-md-3 col-lg-3">
+      					<div class="member-info">
+      						<div class="member-img">
+      							<img src="img/team/team4.jpg" alt="">
+      						</div>
+      						<div class="member-details">
+      							<h6>SEO Specialist</h6>
+      							<h5 class="name">Jack lucky</h5>
+      							<ul class="social">
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg=""><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path></svg><!-- <i class="fab fa-facebook-f"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-linkedin-in fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path></svg><!-- <i class="fab fa-linkedin-in"></i> --></a></li>
+      								<li><a target="_blank" href="#"><svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-instagram"></i> --></a></li>
+      							</ul>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	<section id="subscribe">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-3 col-md-3 col-sm-12"></div>
+      				<div class="col-lg-6 col-md-6 col-sm-12">
+      					<div class="title-center">
+      						<h6 class="sub-title">Get the latest upate before big release</h6>
+      						<h2 class="title">We are growing grow with us start with your <span>Inbox</span></h2>
+      					</div>
+      				</div>
+      				<div class="col-lg-3 col-md-3 col-sm-12"></div>
+      			</div>
+      			<div class="row">
+      				<div class="col-lg-12">
+      					<div class="subscribe-form-bg">
+      						<form id="newsletter" class="newsletter">
+      							<input type="email" name="newsletter-email" placeholder="Enter your email address">
+      							<input type="submit" name="newsletter-submit" value="Get Started">
+      						</form>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	<section id="testimonial">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-4 col-md-4 col-sm-12">
+      					<div class="title-left">
+      						<h6 class="sub-title">What they’re saying</h6>
+      						<h2 class="title">Awesome clients and brands says all <span>About Us</span></h2>
+      						<p class="title-description">We build positive brand’s image and provide consistent graphic designs. We identify companies visually and create coherent website arrangements. By adding any of these other products to your quote, you’ll optimize your investment because we use the same plates.</p>
+      					</div>
+      				</div>
+      				<div class="col-lg-2 col-md-2 col-sm-12"></div>
+      				<div class="col-lg-6 col-md-6 col-sm-12">
+      					<div class="tm-testimonial">
+      						<div class="testimonial-item">
+      							<blockquote class="onhover">
+      								<p class="description">I enjoyed working with ThemeMom. You guys have a good technical and visual understanding which enables you to deliver first class products for international enterprises. I rarely seen such organized, reliable and professional teams.</p>
+      								<div class="clint-img">
+      									<img src="img/testimonial/client.jpg" alt="">
+      								</div>
+      								<div class="client-details">
+      									<h5 class="client-name">Rafsan Jany</h5>
+      									<p class="client-position">CTO, ThemeMom Ltd</p>
+      								</div>
+      								<p class="feedback-date">01 February</p>
+      							</blockquote>
+      							<div class="clint-img">
+      								<img src="img/testimonial/client.jpg" alt="">
+      							</div>
+      							<div class="client-details">
+      								<h5 class="client-name">Rafsan Jany</h5>
+      								<p class="client-position">CTO, ThemeMom Ltd</p>
+      								<p class="feedback-date">01 February</p>
+      							</div>
+      						</div>
+      						<div class="testimonial-item">
+      							<blockquote class="onhover">
+      								<p class="description">I enjoyed working with ThemeMom. You guys have a good technical and visual understanding which enables you to deliver first class products for international enterprises. I rarely seen such organized, reliable and professional teams.</p>
+      								<div class="clint-img">
+      									<img src="img/testimonial/client2.jpg" alt="">
+      								</div>
+      								<div class="client-details">
+      									<h5 class="client-name">Asib Ali Ansary</h5>
+      									<p class="client-position">CTO, Apple Inc</p>
+      								</div>
+      								<p class="feedback-date">17 February</p>
+      							</blockquote>
+      							<div class="clint-img">
+      								<img src="img/testimonial/client2.jpg" alt="">
+      							</div>
+      							<div class="client-details">
+      								<h5 class="client-name">Asib Ali Ansary</h5>
+      								<p class="client-position">CTO, Apple Inc</p>
+      								<p class="feedback-date">17 February</p>
+      							</div>
+      						</div>
+      						<div class="testimonial-item">
+      							<blockquote class="onhover">
+      								<p class="description">I enjoyed working with ThemeMom. You guys have a good technical and visual understanding which enables you to deliver first class products for international enterprises. I rarely seen such organized, reliable and professional teams.</p>
+      								<div class="clint-img">
+      								<img src="img/testimonial/client3.jpg" alt="">
+      								</div>
+      								<div class="client-details">
+      									<h5 class="client-name">Kawsar Ahmed</h5>
+      									<p class="client-position">CEO, Joomshaper</p>
+      								</div>
+      								<p class="feedback-date">18 February</p>
+      							</blockquote>
+      							<div class="clint-img">
+      								<img src="img/testimonial/client3.jpg" alt="">
+      							</div>
+      							<div class="client-details">
+      								<h5 class="client-name">Kawsar Ahmed</h5>
+      								<p class="client-position">CEO, Joomshaper</p>
+      								<p class="feedback-date">18 February</p>
+      							</div>
+      						</div>
+      						<div class="testimonial-item">
+      							<blockquote class="onhover">
+      								<p class="description">I enjoyed working with ThemeMom. You guys have a good technical and visual understanding which enables you to deliver first class products for international enterprises. I rarely seen such organized, reliable and professional teams.</p>
+      								<div class="clint-img">
+      								<img src="img/testimonial/client4.jpg" alt="">
+      								</div>
+      								<div class="client-details">
+      									<h5 class="client-name">Rasell Ahmed</h5>
+      									<p class="client-position">CEO, Red dot</p>
+      								</div>
+      								<p class="feedback-date">29 March</p>
+      							</blockquote>
+      							<div class="clint-img">
+      								<img src="img/testimonial/client4.jpg" alt="">
+      							</div>
+      							<div class="client-details">
+      								<h5 class="client-name">Rasell Ahmed</h5>
+      								<p class="client-position">CEO, Red dot</p>
+      								<p class="feedback-date">29 March</p>
+      							</div>
+      						</div>
+      						<div class="testimonial-item">
+      							<blockquote class="onhover">
+      								<p class="description">I enjoyed working with ThemeMom. You guys have a good technical and visual understanding which enables you to deliver first class products for international enterprises. I rarely seen such organized, reliable and professional teams.</p>
+      								<div class="clint-img">
+      								<img src="img/testimonial/client.jpg" alt="">
+      								</div>
+      								<div class="client-details">
+      									<h5 class="client-name">Andrew Methus</h5>
+      									<p class="client-position">CEO, ThemeMom Inc</p>
+      								</div>
+      								<p class="feedback-date">25 May</p>
+      							</blockquote>
+      							<div class="clint-img">
+      								<img src="img/testimonial/client.jpg" alt="">
+      							</div>
+      							<div class="client-details">
+      								<h5 class="client-name">Andrew Methus</h5>
+      								<p class="client-position">CEO, ThemeMom Inc</p>
+      								<p class="feedback-date">25 May</p>
+      							</div>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	<section id="blog">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-sm-12 col-md-12 col-lg-12">
+      					<div class="title-center">
+      						<h6 class="sub-title">Keep yourself updated with cutting edge tech news</h6>
+      						<h2>We don’t keep things within us<br> we love to share too</h2>
+      					</div>
+      				</div>
+      				<div class="col-sm-12 col-md-4 col-lg-4">
+      					<div class="blog-feature-image">
+      						<img src="img/blog/blog1.jpg" alt="">
+      					</div>
+      					<div class="blog-number">
+      						<p>01</p>
+      					</div>
+      					<div class="blog-title">
+      						<h3><a href="#">Latest marketplace theme is out now</a></h3>
+      						<p class="category">WordPress, Design</p>
+      					</div>
+      				</div>
+      				<div class="col-sm-12 col-md-4 col-lg-4">
+      					<div class="blog-feature-image">
+      						<img src="img/blog/blog2.jpg" alt="">
+      					</div>
+      					<div class="blog-number">
+      						<p>02</p>
+      					</div>
+      					<div class="blog-title">
+      						<h3><a href="#">Top 10 JS scripts for your next project</a></h3>
+      						<p class="category">JS, Front End</p>
+      					</div>
+      				</div>
+      				<div class="col-sm-12 col-md-4 col-lg-4">
+      					<div class="blog-feature-image">
+      						<img src="img/blog/blog3.jpg" alt="">
+      					</div>
+      					<div class="blog-number">
+      						<p>03</p>
+      					</div>
+      					<div class="blog-title">
+      						<h3><a href="#">Powerful backend powered by Thememom</a></h3>
+      						<p class="category">BackEnd, PHP</p>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</section>
+      	<footer id="footer">
+      		<div class="widget-area">
+      			<div class="container">
+      				<div class="row">
+      					<div class="col-lg-4 col-md-4 col-sm-12">
+      						<div class="tm-widget">
+      							<div class="tm-widget-text">
+      								<h1>Ready to <br>start your<br> next project?</h1>
+      								<div class="padding-bottom-30"></div>
+      								<ul class="contact-list">
+      									<li><a href="mailto:support@thememom.com">hello@thememom.com</a></li>
+      									<li><a href="tel:+8801717722179">+88 01717 722 179</a>, <a href="tel:+19149992525">(+1) 914 999 25 25</a></li>
+      									<li><p>D 36, Block E, Zakir Hossain Road <br>Lalmatia, Dhaka</p></li>
+      								</ul>
+      							</div>
+      						</div>
+      					</div>
+      					<div class="col-lg-8 col-md-8 col-sm-12">
+      						<div class="tm-widget">
+      							<div id="map" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -20, -205);"><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -20, -205);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 0px;"></div></div></div><div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -14px; top: -43px; z-index: 0;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -20, -205);"><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i1539!3i885!4i256!2m3!1e0!2sm!3i424125048!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmcuZnxwLmM6I2ZmZDNkM2QzLHMudDo0fHAuYzojZmY4MDgwODB8cC52Om9mZixzLnQ6NDl8cy5lOmcuc3xwLnY6b258cC5jOiNmZmIzYjNiMyxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZmZmZmZmfHAudzoxLjgscy50OjUxfHMuZTpnLnN8cC5jOiNmZmQ3ZDdkNyxzLnQ6MnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZWJlYmViLHMudDoxfHMuZTpnfHAuYzojZmZhN2E3YTcscy50OjUwfHMuZTpnLmZ8cC5jOiNmZmZmZmZmZixzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmZlZmVmZWYscy50OjN8cy5lOmwudC5mfHAuYzojZmY2OTY5Njkscy50OjF8cy5lOmwudC5mfHAudjpvbnxwLmM6I2ZmNzM3MzczLHMudDoyfHMuZTpsLml8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDo1MHxzLmU6Zy5zfHAuYzojZmZkNmQ2ZDYscy50OjN8cy5lOmwuaXxwLnY6b2ZmLHMudDoyfHMuZTpnLmZ8cC5jOiNmZmRhZGFkYQ!4e0!23i1301875&amp;token=50159" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i1536!3i885!4i256!2m3!1e0!2sm!3i424125048!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmcuZnxwLmM6I2ZmZDNkM2QzLHMudDo0fHAuYzojZmY4MDgwODB8cC52Om9mZixzLnQ6NDl8cy5lOmcuc3xwLnY6b258cC5jOiNmZmIzYjNiMyxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZmZmZmZmfHAudzoxLjgscy50OjUxfHMuZTpnLnN8cC5jOiNmZmQ3ZDdkNyxzLnQ6MnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZWJlYmViLHMudDoxfHMuZTpnfHAuYzojZmZhN2E3YTcscy50OjUwfHMuZTpnLmZ8cC5jOiNmZmZmZmZmZixzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmZlZmVmZWYscy50OjN8cy5lOmwudC5mfHAuYzojZmY2OTY5Njkscy50OjF8cy5lOmwudC5mfHAudjpvbnxwLmM6I2ZmNzM3MzczLHMudDoyfHMuZTpsLml8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDo1MHxzLmU6Zy5zfHAuYzojZmZkNmQ2ZDYscy50OjN8cy5lOmwuaXxwLnY6b2ZmLHMudDoyfHMuZTpnLmZ8cC5jOiNmZmRhZGFkYQ!4e0!23i1301875&amp;token=34703" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i1537!3i885!4i256!2m3!1e0!2sm!3i424125048!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmcuZnxwLmM6I2ZmZDNkM2QzLHMudDo0fHAuYzojZmY4MDgwODB8cC52Om9mZixzLnQ6NDl8cy5lOmcuc3xwLnY6b258cC5jOiNmZmIzYjNiMyxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZmZmZmZmfHAudzoxLjgscy50OjUxfHMuZTpnLnN8cC5jOiNmZmQ3ZDdkNyxzLnQ6MnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZWJlYmViLHMudDoxfHMuZTpnfHAuYzojZmZhN2E3YTcscy50OjUwfHMuZTpnLmZ8cC5jOiNmZmZmZmZmZixzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmZlZmVmZWYscy50OjN8cy5lOmwudC5mfHAuYzojZmY2OTY5Njkscy50OjF8cy5lOmwudC5mfHAudjpvbnxwLmM6I2ZmNzM3MzczLHMudDoyfHMuZTpsLml8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDo1MHxzLmU6Zy5zfHAuYzojZmZkNmQ2ZDYscy50OjN8cy5lOmwuaXxwLnY6b2ZmLHMudDoyfHMuZTpnLmZ8cC5jOiNmZmRhZGFkYQ!4e0!23i1301875&amp;token=39855" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i1537!3i884!4i256!2m3!1e0!2sm!3i424125048!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmcuZnxwLmM6I2ZmZDNkM2QzLHMudDo0fHAuYzojZmY4MDgwODB8cC52Om9mZixzLnQ6NDl8cy5lOmcuc3xwLnY6b258cC5jOiNmZmIzYjNiMyxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZmZmZmZmfHAudzoxLjgscy50OjUxfHMuZTpnLnN8cC5jOiNmZmQ3ZDdkNyxzLnQ6MnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZWJlYmViLHMudDoxfHMuZTpnfHAuYzojZmZhN2E3YTcscy50OjUwfHMuZTpnLmZ8cC5jOiNmZmZmZmZmZixzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmZlZmVmZWYscy50OjN8cy5lOmwudC5mfHAuYzojZmY2OTY5Njkscy50OjF8cy5lOmwudC5mfHAudjpvbnxwLmM6I2ZmNzM3MzczLHMudDoyfHMuZTpsLml8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDo1MHxzLmU6Zy5zfHAuYzojZmZkNmQ2ZDYscy50OjN8cy5lOmwuaXxwLnY6b2ZmLHMudDoyfHMuZTpnLmZ8cC5jOiNmZmRhZGFkYQ!4e0!23i1301875&amp;token=41572" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i1538!3i884!4i256!2m3!1e0!2sm!3i424125048!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmcuZnxwLmM6I2ZmZDNkM2QzLHMudDo0fHAuYzojZmY4MDgwODB8cC52Om9mZixzLnQ6NDl8cy5lOmcuc3xwLnY6b258cC5jOiNmZmIzYjNiMyxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZmZmZmZmfHAudzoxLjgscy50OjUxfHMuZTpnLnN8cC5jOiNmZmQ3ZDdkNyxzLnQ6MnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZWJlYmViLHMudDoxfHMuZTpnfHAuYzojZmZhN2E3YTcscy50OjUwfHMuZTpnLmZ8cC5jOiNmZmZmZmZmZixzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmZlZmVmZWYscy50OjN8cy5lOmwudC5mfHAuYzojZmY2OTY5Njkscy50OjF8cy5lOmwudC5mfHAudjpvbnxwLmM6I2ZmNzM3MzczLHMudDoyfHMuZTpsLml8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDo1MHxzLmU6Zy5zfHAuYzojZmZkNmQ2ZDYscy50OjN8cy5lOmwuaXxwLnY6b2ZmLHMudDoyfHMuZTpnLmZ8cC5jOiNmZmRhZGFkYQ!4e0!23i1301875&amp;token=46724" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i1536!3i884!4i256!2m3!1e0!2sm!3i424125048!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmcuZnxwLmM6I2ZmZDNkM2QzLHMudDo0fHAuYzojZmY4MDgwODB8cC52Om9mZixzLnQ6NDl8cy5lOmcuc3xwLnY6b258cC5jOiNmZmIzYjNiMyxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZmZmZmZmfHAudzoxLjgscy50OjUxfHMuZTpnLnN8cC5jOiNmZmQ3ZDdkNyxzLnQ6MnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZWJlYmViLHMudDoxfHMuZTpnfHAuYzojZmZhN2E3YTcscy50OjUwfHMuZTpnLmZ8cC5jOiNmZmZmZmZmZixzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmZlZmVmZWYscy50OjN8cy5lOmwudC5mfHAuYzojZmY2OTY5Njkscy50OjF8cy5lOmwudC5mfHAudjpvbnxwLmM6I2ZmNzM3MzczLHMudDoyfHMuZTpsLml8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDo1MHxzLmU6Zy5zfHAuYzojZmZkNmQ2ZDYscy50OjN8cy5lOmwuaXxwLnY6b2ZmLHMudDoyfHMuZTpnLmZ8cC5jOiNmZmRhZGFkYQ!4e0!23i1301875&amp;token=36420" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i1539!3i884!4i256!2m3!1e0!2sm!3i424125048!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmcuZnxwLmM6I2ZmZDNkM2QzLHMudDo0fHAuYzojZmY4MDgwODB8cC52Om9mZixzLnQ6NDl8cy5lOmcuc3xwLnY6b258cC5jOiNmZmIzYjNiMyxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZmZmZmZmfHAudzoxLjgscy50OjUxfHMuZTpnLnN8cC5jOiNmZmQ3ZDdkNyxzLnQ6MnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZWJlYmViLHMudDoxfHMuZTpnfHAuYzojZmZhN2E3YTcscy50OjUwfHMuZTpnLmZ8cC5jOiNmZmZmZmZmZixzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmZlZmVmZWYscy50OjN8cy5lOmwudC5mfHAuYzojZmY2OTY5Njkscy50OjF8cy5lOmwudC5mfHAudjpvbnxwLmM6I2ZmNzM3MzczLHMudDoyfHMuZTpsLml8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDo1MHxzLmU6Zy5zfHAuYzojZmZkNmQ2ZDYscy50OjN8cy5lOmwuaXxwLnY6b2ZmLHMudDoyfHMuZTpnLmZ8cC5jOiNmZmRhZGFkYQ!4e0!23i1301875&amp;token=51876" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i11!2i1538!3i885!4i256!2m3!1e0!2sm!3i424125048!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjZ8cy5lOmcuZnxwLmM6I2ZmZDNkM2QzLHMudDo0fHAuYzojZmY4MDgwODB8cC52Om9mZixzLnQ6NDl8cy5lOmcuc3xwLnY6b258cC5jOiNmZmIzYjNiMyxzLnQ6NDl8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZmZmZmZmfHAudzoxLjgscy50OjUxfHMuZTpnLnN8cC5jOiNmZmQ3ZDdkNyxzLnQ6MnxzLmU6Zy5mfHAudjpvbnxwLmM6I2ZmZWJlYmViLHMudDoxfHMuZTpnfHAuYzojZmZhN2E3YTcscy50OjUwfHMuZTpnLmZ8cC5jOiNmZmZmZmZmZixzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1fHMuZTpnLmZ8cC52Om9ufHAuYzojZmZlZmVmZWYscy50OjN8cy5lOmwudC5mfHAuYzojZmY2OTY5Njkscy50OjF8cy5lOmwudC5mfHAudjpvbnxwLmM6I2ZmNzM3MzczLHMudDoyfHMuZTpsLml8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDo1MHxzLmU6Zy5zfHAuYzojZmZkNmQ2ZDYscy50OjN8cy5lOmwuaXxwLnY6b2ZmLHMudDoyfHMuZTpnLmZ8cC5jOiNmZmRhZGFkYQ!4e0!23i1301875&amp;token=45007" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div><div style="z-index: 4; position: absolute; left: 50%; top: 50%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div class="gmnoprint" style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0.01; left: -14px; top: -43px; z-index: 0;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png" draggable="false" usemap="#gmimap0" style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap0" id="gmimap0"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" title="Snazzy!" style="cursor: pointer; touch-action: none;"></map></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe frameborder="0" src="about:blank" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=23.757022,90.365047&amp;z=11&amp;t=m&amp;hl=en-GB&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 75px; top: 60px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2018 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 71px; bottom: 0px; width: 121px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2018 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2018 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-GB_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><button draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px 14px; padding: 0px; position: absolute; cursor: pointer; user-select: none; width: 25px; height: 25px; overflow: hidden; top: 0px; right: 0px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></button><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; display: none; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@23.7570219,90.3650473,11z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="93" style="margin: 10px; user-select: none; position: absolute; bottom: 107px; right: 28px;"><div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 38px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><button draggable="false" title="Zoom in" aria-label="Zoom in" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></button><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Zoom out" aria-label="Zoom out" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></button></div></div><div class="gm-svpc" controlwidth="28" controlheight="28" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none; position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 1px; top: 1px;"></div><div style="position: absolute; left: 1px; top: 1px;"><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Pegman is on top of the Map" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; display: none;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; top: 0px; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Show street map" aria-label="Show street map" aria-pressed="true" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 22px; font-weight: 500;">Map</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 29px; text-align: left; display: none;"><div draggable="false" title="Show street map with terrain" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img alt="" src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Terrain</label></div></div></div><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Show satellite imagery" aria-label="Show satellite imagery" aria-pressed="false" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 40px; border-left: 0px;">Satellite</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 29px; text-align: left; display: none;"><div draggable="false" title="Show imagery with street names" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img alt="" src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Labels</label></div></div></div></div></div></div></div>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      		<div class="copyright-area">
+      			<div class="container">
+      				<div class="row">
+      					<div class="col-lg-6 col-md-6 col-sm-12">
+      						<p class="copyright-text">Copyright © 2018 <a href="#">Catos Inc.</a> Designed by <a href="#">ThemeMom</a></p>
+      					</div>
+      					<div class="col-lg-6 col-md-6 col-sm-12">
+      						<div class="copyright-nav">
+      							<ul>
+      								<li><a href="#" target="_blank">Facebook</a></li>
+      								<li><a href="#" target="_blank">Twitter</a></li>
+      								<li><a href="#" target="_blank">Instagram</a></li>
+      								<li><a href="#" target="_blank">LinkedIn</a></li>
+      								<li><a href="#" target="_blank">Youtube</a></li>
+      							</ul>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</footer>
+
+      	<script async="" src="//www.google-analytics.com/analytics.js"></script><script src="js/vendor/tether.min.js"></script>
+      	<script src="js/vendor/popper.min.js"></script>
+      	<script src="js/vendor/jquery-3.2.1.slim.min.js"></script>
+      	<script src="js/jquery-1.10.2.min.js"></script>
+      	<script src="js/vendor/bootstrap.min.js"></script>
+      	<script src="js/vendor/jquery.min.js"></script>
+      	<script src="js/vendor/jquery.easing.min.js"></script>
+      	<script src="js/vendor/scrolling-nav.js"></script>
+      	<script src="js/vendor/font-awesome.js"></script>
+      	<script src="js/sticky.js"></script>
+      	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+      	<script src="js/map.js"></script>
+      	<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkDLdNta9Aljz5Cin8fbwtcQFPFYbjREo&amp;callback=initMap"></script>
+      	<script src="js/vendor/isotope.pkgd.min.js"></script>
+          <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+          <script src="js/vendor/lity.js"></script>
+          <script src="js/portfolio.js"></script>
+          <script src="js/analytics.js"></script>
+          <script src="js/lock.js"></script>
+
+      </body>
+</html>
